@@ -1,0 +1,31 @@
+/* ========== font ========== */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap");
+
+/* ========== css variables ========== */
+:root {
+	--theme-color: #deab5f;
+	--font-color: #eee;
+	--bg-color: #333;
+}
+
+/* ========== utility classes ========== */
+button {
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: var(--theme-color);
+}
+
+/* ========== css resets ========== */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: var(--font-color);
+	background-color: var(--bg-color);
+}
