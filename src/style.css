@@ -28,4 +28,39 @@ button {
 body {
 	color: var(--font-color);
 	background-color: var(--bg-color);
+	font-family: sans-serif;
+}
+
+/* ========== navbar css ========== */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 4rem;
+	font-weight: 600;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.586);
+}
+
+.logo {
+	font-size: 2rem;
+}
+
+nav li {
+	display: inline;
+	list-style: none;
+	margin-left: 1rem;
+}
+
+nav li a {
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 1.2rem;
+	padding-bottom: 2px;
+	transition: color 0.3s;
+}
+
+nav li a:hover {
+	color: var(--theme-color);
+	border-bottom: 2px solid var(--theme-color);
+	transform: scale(1.01);
 }
