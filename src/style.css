@@ -5,7 +5,7 @@
 :root {
 	--theme-color: #deab5f;
 	--font-color: #eee;
-	--bg-color: #333;
+	--bg-color: #141414;
 }
 
 /* ========== utility classes ========== */
@@ -103,4 +103,44 @@ header {
 
 .main-btn {
 	transform: translateY(1.5rem);
+}
+
+/* our story section styling */
+.our-story {
+	/* background */
+	background-image: url("./images/pexels-chitokan-2183027-removebg-preview.png");
+	background-repeat: no-repeat;
+	background-size: 40rem;
+	background-position: top;
+
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+
+	text-align: center;
+	padding-bottom: 6rem;
+}
+
+.our-story h2 {
+	font-size: 3.5rem;
+	font-family: "Playfair Display", serif;
+}
+
+.our-story h2 span {
+	font-size: 4rem;
+}
+
+.our-story h2 span:hover {
+	color: var(--theme-color);
+}
+
+.our-story p {
+	margin-top: 1.2rem;
+	font-size: 1.1rem;
+}
+
+.learn-more {
+	margin-top: 1rem;
 }
