@@ -64,3 +64,12 @@ nav li a:hover {
 	border-bottom: 2px solid var(--theme-color);
 	transform: scale(1.01);
 }
+
+/* header styling */
+header {
+	height: 100vh;
+	background-image: url("./images/pexels-nao-triponez-129207.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
