@@ -9,11 +9,19 @@
 }
 
 /* ========== utility classes ========== */
+section {
+	height: 100vh;
+}
+
 button {
 	padding: 10px 20px;
 	border: none;
+	border-radius: 0.8rem;
+	font-weight: bold;
+	font-size: 1.2rem;
 	cursor: pointer;
 	background-color: var(--theme-color);
+	color: var(--bg-color);
 }
 
 /* ========== css resets ========== */
@@ -72,4 +80,27 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/* hero styling */
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 90%;
+	font-family: "Playfair Display", serif;
+	font-size: 1.8rem;
+	word-spacing: 0.7rem;
+	position: relative;
+}
+
+.invisible {
+	/* background: red; */
+	height: 20rem;
+	margin-bottom: 2rem;
+}
+
+.main-btn {
+	transform: translateY(1.5rem);
 }
