@@ -24,11 +24,11 @@ button {
 	color: var(--bg-color);
 }
 
-.big-start {
+.big-start-title {
 	font-size: 4rem;
 }
 
-.big-start span {
+.big-start-title span {
 	font-size: 3.5rem;
 }
 
