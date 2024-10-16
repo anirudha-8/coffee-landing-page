@@ -144,3 +144,21 @@ header {
 .learn-more {
 	margin-top: 1rem;
 }
+
+/* perfect place section styling */
+.perfect-place {
+	/* background */
+	background-image: url("./images/2.png");
+	background-repeat: no-repeat;
+	background-size: 25rem;
+	background-position: bottom;
+
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	text-align: center;
+	padding-top: 2rem;
+}
