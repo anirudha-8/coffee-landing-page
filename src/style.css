@@ -162,3 +162,17 @@ header {
 	text-align: center;
 	padding-top: 2rem;
 }
+
+/* footer styling */
+footer {
+	margin: 2rem;
+	font-size: 0.8rem;
+	color: gray;
+	border-top: 1px solid gray;
+	padding-top: 1rem;
+
+	/* flex */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
