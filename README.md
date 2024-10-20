@@ -2,6 +2,8 @@
 
 A static landing page dedicated to showcasing the essence of coffee. Built using **HTML** and **CSS**, this project represents a minimalist approach to web design.
 
+## ==> [🔥Live Demo](https://anirudha-8.github.io/coffee-landing-page/)
+
 ## 🌟 Features
 
 - **Static Design**: A beautifully crafted page with clean and consistent visuals.
